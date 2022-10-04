@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "khamlar123",
+    "database": "gps_server",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "khamlar123",
+    "database": "gps_server",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "khamlar123",
+    "database": "gps_server",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
