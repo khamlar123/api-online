@@ -10,9 +10,9 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/api', router);
 app.get('/', async (req, res) => {
-    return res.status(200).json('halow ')
+    return res.status(200).json('halo')
 })
 
-app.listen(port, () => {
+app.listen(1000, () => {
     console.log(`http://localhost:${port}`);
 })
